@@ -7,6 +7,7 @@ namespace CheeseMVC.Models
 {
     public class CheeseCategory
     {
+        public IList<Cheese> Cheeses = new List<Cheese>();
         public int ID { get; set; }
         public string Name { get; set; }
     }
